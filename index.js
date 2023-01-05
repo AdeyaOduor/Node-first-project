@@ -34,7 +34,7 @@ http.createServer((req,res)=>{
             return res.end;
         });
     }
-}).listen(6969,()=>{
-    console.log('Listeninig on port  6969.....');
+}).listen(8080,()=>{
+    console.log('Listeninig on port  8080.....');
 });
 
